@@ -1,0 +1,121 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Our Services</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+            min-height: 100vh;
+        }
+        .service-card {
+            transition: all 0.3s ease;
+            border-radius: 15px;
+        }
+        .service-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+        }
+        .icon-box {
+            font-size: 50px;
+            margin-bottom: 20px;
+        }
+        h1 {
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- Header Section -->
+<div class="container text-center mt-5">
+    <h1 class="text-dark">Our Services</h1>
+    <p class="text-secondary">We provide modern, creative and reliable solutions for your business.</p>
+</div>
+
+<!-- Services Section -->
+<div class="container mt-4">
+    <div class="row g-4">
+
+        <!-- Service 1 -->
+        <div class="col-md-4">
+            <div class="p-4 bg-white service-card text-center">
+                <div class="icon-box">💻</div>
+                <h3>Web Development</h3>
+                <p>
+                    We build responsive, fast and secure websites using modern technologies like Django, React, and Node.js.
+                </p>
+            </div>
+        </div>
+
+        <!-- Service 2 -->
+        <div class="col-md-4">
+            <div class="p-4 bg-white service-card text-center">
+                <div class="icon-box">📱</div>
+                <h3>Mobile Apps</h3>
+                <p>
+                    High-quality mobile app development for Android and iOS with beautiful UI/UX.
+                </p>
+            </div>
+        </div>
+
+        <!-- Service 3 -->
+        <div class="col-md-4">
+            <div class="p-4 bg-white service-card text-center">
+                <div class="icon-box">🤖</div>
+                <h3>AI & Automation</h3>
+                <p>
+                    Build AI tools, chatbots, automation systems & machine learning models for your business.
+                </p>
+            </div>
+        </div>
+
+        <!-- Service 4 -->
+        <div class="col-md-4">
+            <div class="p-4 bg-white service-card text-center">
+                <div class="icon-box">🛒</div>
+                <h3>E-Commerce Solutions</h3>
+                <p>
+                    Complete online store setup with payment gateway, inventory system & admin panel.
+                </p>
+            </div>
+        </div>
+
+        <!-- Service 5 -->
+        <div class="col-md-4">
+            <div class="p-4 bg-white service-card text-center">
+                <div class="icon-box">🎨</div>
+                <h3>UI / UX Design</h3>
+                <p>
+                    Beautiful user interface and user experiences that make your product stand out.
+                </p>
+            </div>
+        </div>
+
+        <!-- Service 6 -->
+        <div class="col-md-4">
+            <div class="p-4 bg-white service-card text-center">
+                <div class="icon-box">☁️</div>
+                <h3>Cloud Deployment</h3>
+                <p>
+                    Deploy & manage your project on AWS, DigitalOcean, Vercel or Heroku with best security practices.
+                </p>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- Footer -->
+<div class="text-center mt-5 p-3 bg-dark text-white">
+    © 2025 My Web Company — All Rights Reserved
+</div>
+
+</body>
+</html>
