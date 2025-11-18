@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "mysite_proj/asgi.py", "use": "@vercel/python" }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "mysite_proj/asgi.py" }
+  ]
+}
